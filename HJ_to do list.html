@@ -5,14 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <style>
         ul,li{
            list-style: none;
         }
+        p{
+            margin: 5px 20px 12px;
+            font-size: 13px;
+            color:#5a5a5a;
+        }
     </style>
-    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-   
+       
 </head>
 <body>
     <div id="accordion">   
@@ -20,23 +25,40 @@
         <h1>2019년 List</h1>
         
         <ul>
-            <li><input type="checkbox">취업</li>
-            <li><input type="checkbox">토익점수올리기</li>
-            <li><input type="checkbox">자격증
-                <ul>
-                    <li><input type="checkbox">컴활1급</li>
-                    <li><input type="checkbox">전산회계</li>
-                    <li><input type="checkbox">네트워크관리사2급</li>
-                </ul>
+            <li><input type="checkbox" checked>취업
+                <p>직업훈련학교(ERP)</p>
+                <p>인턴(서울)</p>
             </li>
-            <li><input type="checkbox">아빠 환갑 축하하기</li>
+            <li><input type="checkbox" checked>토익점수올리기
+                <p>740점</p>
+            </li>            
+            <li><input type="checkbox" checked>컴활1급
+                <p>필기 합격</p>
+            </li>
+            <li><input type="checkbox" checked>전산회계
+                <p>전산회계1급 합격</p>
+                <p>FAT1급 합격</p>
+                <p>기업회계3급 합격</p>
+            </li>
+            <li><input type="checkbox" checked>네트워크관리사2급</li>                       
             <li><input type="checkbox">운동(근력키우기, 기초대사량 높이기)</li>
             <li><input type="checkbox">밤12시전에 자기</li>
-            <li><input type="checkbox">저금 천만원 유지</li>
-            <li><input type="checkbox">연애하기</li>
-            <li><input type="checkbox">여행</li>
+            <li><input type="checkbox" checked>저금 천만원 유지</li>
+            <li><input type="checkbox" checked>연애하기
+                <p>이별</p>
+            </li>
+            <li><input type="checkbox" checked>아빠 환갑 축하하기
+                <p>일본여행</p>
+            </li>
+            <li><input type="checkbox" checked>여행
+                <p>가족여행(홋카이도)</p>
+                <p>엄빠(서울투어)</p>
+            </li>
             <li><input type="checkbox">취미생활</li>
-            <li><input type="checkbox">독서</li>
+            <li><input type="checkbox" checked>독서
+                <p>90년생이 온다</p>
+                <p>나는 오늘부터 화를 끊기로 했다</p>
+            </li>
         </ul>
 
 
