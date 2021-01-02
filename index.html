@@ -8,6 +8,11 @@
     <script src="//code.jquery.com/jquery-1.12.4.js"></script>
     <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <style>
+        *{
+            margin:0; 
+            padding: 0;
+            box-sizing: border-box;
+            }
         ul,li{
            list-style: none;
         }
@@ -19,10 +24,23 @@
         body{
             background-color:#ecf9f2;
         }
+        #accordion{
+            width:600px;
+            margin:0 auto;
+        }
+        img{
+            width:300px;
+            height:300px;
+            display: block;
+            margin:0 auto;
+            margin-top: 20px;
+            margin-bottom:44px;
+        }
     </style>
        
 </head>
 <body>
+    <img src="todolist_1.png" alt="할수있다">
     <div id="accordion">   
 
         <h1>2019년 List</h1>
@@ -106,7 +124,6 @@
         
     </div>
     
-
 <script>
     $( "#accordion" ).accordion();
     </script>
